@@ -20,12 +20,13 @@ const Home = () => {
             she must navigate a world of danger and intrigue 
             as she learns to control her powers and uncover the truth about 
             her past.</p>
-            <div className="hero-btns"></div>
+            <div className="hero-btns">
             <button className='btn'><img src={play_icon} alt="" /
             >Play</button>
             <button className='btn dark-btn'><img src={info_icon} alt="" /
             >More Info</button>
-        </div>
+            </div>
+          </div>
         <TitleCards />
       </div>
       <div className="more-cards">

@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './TitleCards.css';
 // import cards_data from '../../../data/cards_data'
-import cards_data from "../../assets/assets/cards/Cards_data"
 import { Link } from 'react-router-dom';
 
 
@@ -14,7 +13,7 @@ const TitleCards = ({title, category}) => {
 
 const options = {
   method: 'GET',
-  headers: {accept: 'application/json', Authorization: 'Bearer ••••'}
+  headers: {accept: 'application/json', Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlM2I5YWFjMWU0Yzc1MTMzMjcyYjhhNDU4Yjg1N2ZjNiIsIm5iZiI6MTc4Mzg4MTEzMy43MzMsInN1YiI6IjZhNTNkZGFkYmQyODg1NzQxODM0NzU4NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Om1JzFxfM0xZEziUknupXg-523-MdxUlvNua28G_Vxw'}
 };
 
 

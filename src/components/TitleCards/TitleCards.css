@@ -4,14 +4,13 @@
 }
 
 .title-cards h2 {
-    margin-bottom: 8x;
+    margin-bottom: 8px;
 }
 
 .card-list{
     display: flex;
     gap: 10px;
     overflow-x: scroll;
-
 }
 
 .card-list::-webkit-scrollbar{
@@ -35,7 +34,7 @@
     color: #fff;
 }
 
-@media  (ma-width: 800px){
+@media  (max-width: 800px){
     .title-cards{
     margin-top: 20px;
     margin-bottom: 0;
@@ -52,7 +51,7 @@
     }
 }
 
-@media  (ma-width: 500px){
+@media  (max-width: 500px){
     .title-cards h2{
         font-size: 15px;
     }
