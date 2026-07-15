@@ -26,8 +26,8 @@ const Home = () => {
             <button className='btn dark-btn'><img src={info_icon} alt="" /
             >More Info</button>
             </div>
-          </div>
-        <TitleCards />
+            <TitleCards />
+          </div>   
       </div>
       <div className="more-cards">
         <TitleCards title={"Blockbuster Movies"} category={"top_rated"}/>
