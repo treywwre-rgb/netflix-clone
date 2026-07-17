@@ -17,7 +17,7 @@ const Home = () => {
         <div className="hero-caption">
           <img src={hero_title} alt="" className='caption-img' />
           <p>A story about a young woman who discovers she has extraordinary abilities.
-            she must navigate a world of danger and intrigue 
+            She must navigate a world of danger and intrigue 
             as she learns to control her powers and uncover the truth about 
             her past.</p>
             <div className="hero-btns">
